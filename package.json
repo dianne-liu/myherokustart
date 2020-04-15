@@ -1,0 +1,23 @@
+{
+  "name": "mybots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dianne Liu",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^2.0.0",
+    "@slack/events-api": "^2.3.2",
+    "@slack/interactive-messages": "^1.5.0",
+    "@slack/rtm-api": "^5.0.3",
+    "@slack/web-api": "^5.8.0",
+    "@slack/webhook": "^5.0.3",
+    "axios": "^0.19.2",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
